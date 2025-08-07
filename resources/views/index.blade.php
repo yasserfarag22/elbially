@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>معلم دهانات وديكورات داخلية وخارجية | السعودية</title>
-    <meta name="description" content="معلم دهانات محترف في السعودية يقدم خدمات الدهانات الداخلية والخارجية، ديكورات عصرية، بديل خشب وبديل رخام، عوازل أسطح وتشطيب كامل للمنازل والفلل بأعلى جودة. اتصل الآن للحصول على أفضل سعر.">
-    <meta name="keywords" content="معلم دهانات, دهانات داخلية, دهانات خارجية, ديكورات داخلية, ديكورات خارجية, بديل الخشب, بديل الرخام, عوازل أسطح, عزل مائي, معلم دهانات بالرياض, تشطيب منازل, معلم ديكور, أفضل معلم دهانات, دهانات فاخرة, معلم دهانات في السعودية, صبغ جدران, معلم بوية, مقاول دهانات, تصميم داخلي, معلم دهانات وديكور">
+    <title>شركة قمة الخدمات | دهانات وديكورات وتشطيب داخلي وخارجي | إدارة المهندس أحمد البيلي</title>
+    <meta name="description" content="شركة قمة الخدمات المحدودة المتخصصة في أعمال الدهانات والديكورات والتشطيب الداخلي والخارجي تحت إدارة المهندس أحمد البيلي. نقدم خدمات عالية الجودة بأسعار تنافسية في المملكة العربية السعودية.">
+    <meta name="keywords" content="شركة قمة الخدمات, دهانات الرياض, تشطيب فلل, ديكورات داخلية, مهندس أحمد البيلي, دهانات خارجية, ورق جدران, بديل خشب, بوكسي, تشطيب منازل, أفضل شركة دهانات, شركة ديكورات">
+
+
 
     <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
     <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
@@ -59,16 +61,24 @@
             align-items: center;
             justify-content: center;
         }
+        .company-name {
+            color: #2c6ecb;
+            font-weight: 700;
+        }
+        .engineer-name {
+            color: #d4a762;
+            font-weight: 600;
+        }
     </style>
 </head>
 
 <body class="index-page">
 
-<a href="https://wa.me/966561319089" class="whatsapp-float" target="_blank" rel="noopener">
+<a href="https://wa.me/966561319089" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="تواصل عبر واتساب">
     <i class="bi bi-whatsapp"></i>
 </a>
 
-<a href="tel:+966541402561" class="phone-float">
+<a href="tel:+966561319089" class="phone-float" aria-label="اتصل بنا">
     <i class="bi bi-telephone"></i>
 </a>
 
@@ -77,13 +87,13 @@
 
         <a href="{{route('index')}}" class="logo d-flex align-items-center me-auto me-xl-0">
             <i class="bi bi-brush"></i>
-            <h1 class="sitename">معلم دهانات</h1>
+            <h1 class="sitename"> قمة الخدمات المحدودة</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
             <ul>
                 <li><a href="#hero" class="active">الرئيسية</a></li>
-                <li><a href="#about">من نحن</a></li>
+                <li><a href="#about">عن الشركة</a></li>
                 <li><a href="#services">خدماتنا</a></li>
                 <li><a href="#gallery">معرض الأعمال</a></li>
                 <li><a href="#contact">اتصل بنا</a></li>
@@ -105,9 +115,10 @@
     <section id="hero" class="hero section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
-                    <h2><span> </span><span class="underlight">معلم دهانات</span> <span> محترف في المملكة العربية السعودية</span></h2>
-                    <p>نقدم خدمات الدهانات الداخلية والخارجية بجودة عالية، عوازل الأسطح ضد التسريبات، وكل ما يتعلق بأعمال الدهانات والعوازل.</p>
+                <div class="col-lg-8 text-center" data-aos="fade-up" data-aos-delay="100">
+                    <h1><span class="company-name">شركة قمة الخدمات المحدودة</span></h1>
+                    <h2>لأعمال الدهانات والديكورات والتشطيب الداخلي والخارجي</h2>
+                    <p class="mt-3">تحت إشراف وإدارة <span class="engineer-name">المهندس أحمد البيلي</span> - خبرة أكثر من 15 عاماً في مجال التشطيب والدهانات</p>
                     <a href="#contact" class="btn-get-started">طلب خدمة</a>
                 </div>
             </div>
@@ -118,12 +129,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-up">
-                    <h2>من نحن</h2>
-                    <p>البيلي معلم دهانات محترف مع أكثر من 15 عاماً من الخبرة في مجال الدهانات والعوازل في المملكة العربية السعودية.</p>
-                    <p>نتميز بالأمانة والإتقان في العمل، واستخدام أفضل المواد والألوان الحديثة لضمان جودة العمل وديمومته.</p>
+                    <h2>عن الشركة</h2>
+                    <p><span class="company-name">شركة قمة الخدمات المحدودة</span> هي شركة سعودية متخصصة في أعمال الدهانات والديكورات والتشطيب الداخلي والخارجي للمنازل والفلل والمشاريع التجارية.</p>
+                    <p>تأسست الشركة تحت إدارة <span class="engineer-name">المهندس أحمد البيلي</span> الذي يمتلك خبرة واسعة في مجال التشطيب والدهانات تزيد عن 15 عاماً.</p>
+                    <p>نتميز باستخدام أفضل المواد والألوان الحديثة من علامات تجارية عالمية مثل جوتن وسايبس والجزيرة، مع الحفاظ على أعلى معايير الجودة والإتقان.</p>
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <img src="{{asset('assets/img/inf.jpeg')}}" class="img-fluid rounded" alt="البيلي معلم دهانات">
+                    <img src="{{asset('assets/img/info.jpeg')}}" class="img-fluid rounded" alt="فريق شركة قمة الخدمات المحدودة" title="شركة قمة الخدمات للدهانات والديكورات">
                 </div>
             </div>
         </div>
@@ -133,83 +145,83 @@
         <div class="container">
             <div class="section-title">
                 <h2>خدماتنا</h2>
-                <p>نقدم مجموعة متكاملة من خدمات الدهانات والعوازل</p>
+                <p>نقدم حلولاً متكاملة في مجال الدهانات والتشطيب والديكورات</p>
             </div>
 
             <div class="row">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="service-item">
                         <i class="bi bi-house-door"></i>
-                        <h3>الدهانات الداخلية</h3>
-                        <p>دهانات الجدران والأسقف والديكورات الداخلية بجميع أنواعها وألوانها.</p>
+                        <h3>التشطيب الداخلي</h3>
+                        <p>تشطيب كامل للمنازل والفلل بجودة عالية، تشمل الدهانات وتركيب ورق الجدران والديكورات الداخلية.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item">
                         <i class="bi bi-building"></i>
-                        <h3>الدهانات الخارجية</h3>
-                        <p>دهانات الواجهات الخارجية بمواد مقاومة للعوامل الجوية.</p>
+                        <h3>التشطيب الخارجي</h3>
+                        <p>دهانات الواجهات الخارجية بمواد مقاومة للعوامل الجوية مع ضمان الجودة والمتانة.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item">
                         <i class="bi bi-columns-gap"></i>
-                        <h3>بديل الخشب</h3>
-                        <p>تصميم وتركيب بديل الخشب للجدران والأسقف بلمسات ديكور عصرية وفاخرة.</p>
+                        <h3>بديل الخشب والرخام</h3>
+                        <p>تصميم وتركيب ديكورات بديل الخشب والرخام بلمسات عصرية وفاخرة تناسب جميع الأذواق.</p>
                     </div>
                 </div>
-
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item">
                         <i class="bi bi-brush"></i>
-                        <h3>دهانات الأخشاب</h3>
-                        <p>دهانات الأبواب والنوافذ والأثاث الخشبي.</p>
+                        <h3>ورق الجدران</h3>
+                        <p>تركيب ورق جدران عالي الجودة بجميع أنواعه وأشكاله، مع تقديم استشارات تصميمية متخصصة.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-item">
                         <i class="bi bi-palette"></i>
-                        <h3>التصاميم والديكورات</h3>
-                        <p>تصاميم ديكورات مبتكرة وتنفيذها بدقة.</p>
+                        <h3>الديكورات الجبسية</h3>
+                        <p>تصميم وتنفيذ ديكورات جبسية مبتكرة للأسقف والجدران بأحدث التصاميم العالمية.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-item">
                         <i class="bi bi-tools"></i>
-                        <h3>الصيانة والتجديد</h3>
-                        <p>صيانة وتجديد الدهانات القديمة وإصلاح التشققات.</p>
+                        <h3>البوكسي والديكورات المضيئة</h3>
+                        <p>تنفيذ ديكورات البوكسي المضيئة باحترافية عالية وتقنيات حديثة.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section><
+    </section>
 
     <section id="gallery" class="gallery section">
         <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
             <div class="section-title">
-                <h2>معرض الأعمال</h2>
-                <p>بعض من أعمالنا السابقة في مجال الدهانات والعوازل</p>
+                <h2>معرض أعمالنا</h2>
+                <p>أبرز مشاريع شركة قمة الخدمات في الدهانات والديكورات</p>
             </div>
 
             <div class="row gy-4 justify-content-center">
-                <div class="row gy-4 justify-content-center">
-                    @for ($i = 1; $i <= 28; $i++)
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="gallery-item h-100">
-                                <img src="{{ asset('assets/img/gallery/' . $i . '.jpeg') }}" class="img-fluid" alt="gallery-{{ $i }}">
-                                <div class="gallery-links d-flex align-items-center justify-content-center">
-                                    <a href="{{ asset('assets/img/gallery/' . $i . '.jpeg') }}" class="glightbox preview-link" title="صورة رقم {{ $i }}"><i class="bi bi-arrows-angle-expand"></i></a>
-                                </div>
+                @for ($i = 1; $i <= 28; $i++)
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="gallery-item h-100">
+                            <img src="{{ asset('assets/img/gallery/' . $i . '.jpeg') }}"
+                                 class="img-fluid"
+                                 alt="مشروع لشركة قمة الخدمات في الدهانات والديكور"
+                                 title="أعمال شركة قمة الخدمات - {{ $i }}"
+                                 loading="lazy">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="{{ asset('assets/img/gallery/' . $i . '.jpeg') }}" class="glightbox preview-link" title="مشروع رقم {{ $i }}"><i class="bi bi-arrows-angle-expand"></i></a>
                             </div>
                         </div>
-                    @endfor
-                </div>
-
+                    </div>
+                @endfor
             </div>
         </div>
     </section>
@@ -218,7 +230,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>اتصل بنا</h2>
-                <p>تواصل معنا لطلب الخدمة أو الاستفسار</p>
+                <p>تواصل مع شركة قمة الخدمات لطلب الخدمة أو الاستفسار</p>
             </div>
 
             <div class="row">
@@ -226,7 +238,7 @@
                     <div class="info-box">
                         <i class="bi bi-geo-alt"></i>
                         <h3>العنوان</h3>
-                        <p>المملكة العربية السعودية</p>
+                        <p>الرياض، المملكة العربية السعودية</p>
                     </div>
                 </div>
 
@@ -234,24 +246,24 @@
                     <div class="info-box">
                         <i class="bi bi-telephone"></i>
                         <h3>اتصل بنا</h3>
-                        <p><a href="tel:+966561319089">+966561319089</a></p>
-                        <p><a href="tel:+966561319089">+966561319089</a></p>
+                        <p><a href="tel:+966561319089">+966 56 131 9089</a></p>
+                        <p><a href="tel:+966541402561">+966 54 140 2561</a></p>
                     </div>
                 </div>
 
-{{--                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">--}}
-{{--                    <div class="info-box">--}}
-{{--                        <i class="bi bi-envelope"></i>--}}
-{{--                        <h3>البريد الإلكتروني</h3>--}}
-{{--                        <p>info@albaili-paint.com</p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-box">
+                        <i class="bi bi-clock"></i>
+                        <h3>ساعات العمل</h3>
+                        <p>الأحد - الخميس: 8 صباحاً - 6 مساءً</p>
+                        <p>الجمعة - السبت: مغلق</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 </main>
-
 
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
