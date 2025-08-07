@@ -64,17 +64,18 @@
 
 <body class="index-page">
 
-<a href="https://wa.me/966XXXXXXXXXX" class="whatsapp-float" target="_blank">
+<a href="https://wa.me/966541402561" class="whatsapp-float" target="_blank" rel="noopener">
     <i class="bi bi-whatsapp"></i>
 </a>
-<a href="tel:+966XXXXXXXXXX" class="phone-float">
+
+<a href="tel:+966561319089" class="phone-float">
     <i class="bi bi-telephone"></i>
 </a>
 
 <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-        <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <a href="{{route('index')}}" class="logo d-flex align-items-center me-auto me-xl-0">
             <i class="bi bi-brush"></i>
             <h1 class="sitename">البيلي للدهانات</h1>
         </a>
@@ -122,7 +123,7 @@
                     <p>نتميز بالأمانة والإتقان في العمل، واستخدام أفضل المواد والألوان الحديثة لضمان جودة العمل وديمومته.</p>
                 </div>
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <img src="{{asset('assets/img/profile-img.jpg')}}" class="img-fluid rounded" alt="البيلي معلم دهانات">
+                    <img src="{{asset('assets/img/inf.jpeg')}}" class="img-fluid rounded" alt="البيلي معلم دهانات">
                 </div>
             </div>
         </div>
@@ -232,18 +233,18 @@
                     <div class="info-box">
                         <i class="bi bi-telephone"></i>
                         <h3>اتصل بنا</h3>
-                        <p>+966 50 123 4567</p>
-                        <p>+966 55 987 6543</p>
+                        <p><a href="tel:+966561319089">+966561319089</a></p>
+                        <p><a href="tel:+966561319089">+966561319089</a></p>
                     </div>
                 </div>
 
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="info-box">
-                        <i class="bi bi-envelope"></i>
-                        <h3>البريد الإلكتروني</h3>
-                        <p>info@albaili-paint.com</p>
-                    </div>
-                </div>
+{{--                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">--}}
+{{--                    <div class="info-box">--}}
+{{--                        <i class="bi bi-envelope"></i>--}}
+{{--                        <h3>البريد الإلكتروني</h3>--}}
+{{--                        <p>info@albaili-paint.com</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </section>
