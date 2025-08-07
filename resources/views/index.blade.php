@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>البيلي - معلم دهانات محترف</title>
-    <meta name="description" content="البيلي معلم دهانات محترف، تنفيذ أعمال الدهانات الداخلية والخارجية، عوازل أسطح ضد التسريبات، جميع أعمال الدهانات والعوازل في السعودية">
-    <meta name="keywords" content="دهانات, معلم دهانات, عوازل أسطح, دهانات داخلية, دهانات خارجية, السعودية">
+    <title>معلم دهانات وديكورات داخلية وخارجية | السعودية</title>
+    <meta name="description" content="معلم دهانات محترف في السعودية يقدم خدمات الدهانات الداخلية والخارجية، ديكورات عصرية، بديل خشب وبديل رخام، عوازل أسطح وتشطيب كامل للمنازل والفلل بأعلى جودة. اتصل الآن للحصول على أفضل سعر.">
+    <meta name="keywords" content="معلم دهانات, دهانات داخلية, دهانات خارجية, ديكورات داخلية, ديكورات خارجية, بديل الخشب, بديل الرخام, عوازل أسطح, عزل مائي, معلم دهانات بالرياض, تشطيب منازل, معلم ديكور, أفضل معلم دهانات, دهانات فاخرة, معلم دهانات في السعودية, صبغ جدران, معلم بوية, مقاول دهانات, تصميم داخلي, معلم دهانات وديكور">
 
     <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
     <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
@@ -64,11 +64,11 @@
 
 <body class="index-page">
 
-<a href="https://wa.me/966541402561" class="whatsapp-float" target="_blank" rel="noopener">
+<a href="https://wa.me/966561319089" class="whatsapp-float" target="_blank" rel="noopener">
     <i class="bi bi-whatsapp"></i>
 </a>
 
-<a href="tel:+966561319089" class="phone-float">
+<a href="tel:+966541402561" class="phone-float">
     <i class="bi bi-telephone"></i>
 </a>
 
@@ -77,7 +77,7 @@
 
         <a href="{{route('index')}}" class="logo d-flex align-items-center me-auto me-xl-0">
             <i class="bi bi-brush"></i>
-            <h1 class="sitename">البيلي للدهانات</h1>
+            <h1 class="sitename">معلم دهانات</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -106,7 +106,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
-                    <h2><span> </span><span class="underlight">البيلي</span> <span>معلم دهانات محترف في المملكة العربية السعودية</span></h2>
+                    <h2><span> </span><span class="underlight">معلم دهانات</span> <span> محترف في المملكة العربية السعودية</span></h2>
                     <p>نقدم خدمات الدهانات الداخلية والخارجية بجودة عالية، عوازل الأسطح ضد التسريبات، وكل ما يتعلق بأعمال الدهانات والعوازل.</p>
                     <a href="#contact" class="btn-get-started">طلب خدمة</a>
                 </div>
@@ -155,11 +155,12 @@
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item">
-                        <i class="bi bi-droplet"></i>
-                        <h3>عوازل الأسطح</h3>
-                        <p>عوازل مائية وحرارية للأسطح ضد التسريبات والحرارة.</p>
+                        <i class="bi bi-columns-gap"></i>
+                        <h3>بديل الخشب</h3>
+                        <p>تصميم وتركيب بديل الخشب للجدران والأسقف بلمسات ديكور عصرية وفاخرة.</p>
                     </div>
                 </div>
+
 
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item">
