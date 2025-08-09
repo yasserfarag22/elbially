@@ -279,6 +279,13 @@
 <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
 
 <script src="{{ asset('assets/js/main.js') }}"></script>
+<script>
+    gtag('event', 'conversion', {
+        'send_to': 'AW-17456038867/r9yCCOWk_IIbENOH2INB',
+        'value': 1.0,
+        'currency': 'EGP'
+    });
+</script>
 
 </body>
 </html>
